@@ -13,17 +13,6 @@ A powerful **SQL Query Checker & Formatter** that helps detect spelling mistakes
 ✅ **Supports MySQL syntax checking**  
 ✅ **Interactive error highlighting**  
 
-## 🛠 Installation & Setup
-
-### 🔹 Clone the Repository
-```sh
-$ git clone https://github.com/yourusername/sql-query-checker.git
-$ cd sql-query-checker
-```
-
-### 🔹 Install Dependencies (if needed)
-This project mainly uses frontend technologies, so no backend setup is required. Just open `index.html` in your browser!
-
 ## 🚀 Usage
 1. **Enter your SQL query** in the editor.
 2. **Errors will be highlighted** in real-time.
@@ -48,17 +37,4 @@ SELCT name, email FRM users WHER id = 1
 - **JavaScript** (CodeMirror for syntax highlighting)
 - **HTML & CSS** (Frontend UI)
 - **MySQL Query Checking**
-
-## 📜 License
-This project is licensed under the **MIT License**.
-
-## 🤝 Contributing
-Pull requests are welcome! If you find any issues or have suggestions, open an issue or contribute directly.
-
-## ⭐ Acknowledgments
-Special thanks to **CodeMirror** for providing an excellent SQL editor experience!
-
----
-
-🔥 **Star this repo if you found it useful!** ⭐
 
