@@ -30,11 +30,15 @@ let checkTimeout;
 
 // SQL keyword dictionary for spell checking
 const sqlKeywords = new Map([
-    ['CREAT', 'CREATE'], ['SELCT', 'SELECT'], ['WHER', 'WHERE'], ['DELET', 'DELETE'],
+    ['CREAT', 'CREATE'], ['SELCT', 'SELECT'],['SELEC', 'SELECT'], ['WHER', 'WHERE'], ['DELET', 'DELETE'],
     ['UPDAT', 'UPDATE'], ['INSRT', 'INSERT'], ['FRM', 'FROM'], ['TABL', 'TABLE'],
     ['DATABAS', 'DATABASE'], ['COLUM', 'COLUMN'], ['GROOP', 'GROUP'], ['ORDR', 'ORDER'],
     ['JOINNG', 'JOIN'], ['HAVNG', 'HAVING'], ['DISTINCTT', 'DISTINCT'], ['UNOIN', 'UNION'],
-    ['VALU', 'VALUES']
+    ['VALU', 'VALUES'],['creat', 'CREATE'], ['selct', 'SELECT'],['selec', 'SELECT'], ['wher', 'WHERE'], ['delet', 'DELETE'],
+    ['updat', 'UPDATE'], ['insrt', 'INSERT'], ['frm', 'FROM'], ['tabl', 'TABLE'],
+    ['databas', 'DATABASE'], ['colum', 'COLUMN'], ['groop', 'GROUP'], ['ordr', 'ORDER'],
+    ['joining', 'JOIN'], ['havng', 'HAVING'], ['distinctt', 'DISTINCT'], ['unoin', 'UNION'],
+    ['valu', 'VALUES']
 ]);
 
 // Function to format SQL query
